@@ -1,0 +1,14 @@
+$blue:    #053f96 !default;
+$text-muted:                  #8c8c8c !default;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 4,
+) !default;
+
+@import "../bootstrap/scss/bootstrap";
